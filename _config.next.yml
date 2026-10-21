@@ -915,3 +915,18 @@ vendors:
 css: css
 js: js
 images: images
+
+# giscus comments (GitHub Discussions) via hexo-next-giscus
+giscus:
+  enable: true
+  repo: blogkr/blogkr.github.io
+  repo_id: R_kgDOVId_Cg
+  category: Announcements
+  category_id: DIC_kwDOVId_Cs4DJOu2
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  theme: preferred_color_scheme
+  lang: ko
+  input_position: bottom
+  loading: lazy
